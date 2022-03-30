@@ -3,7 +3,7 @@ const emailOutput = document.querySelector("#email-output")
 const printButton = document.querySelector("#print")
 
 printButton.addEventListener('click', event => {
-    var enteredEmail = emailInput.value
+    const enteredEmail = emailInput.value
     emailOutput.textContent = enteredEmail
-    emailInput.value = " "
+    emailInput.value = ""
 })
